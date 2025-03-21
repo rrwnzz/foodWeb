@@ -1,0 +1,67 @@
+#navBar{
+    display: flex;
+}
+#searchCart{
+    display: flex; 
+    /* to make the items(cart search button) inside the id searchCart appear beside each other */
+    margin-left: 180px;
+    /* to margin all the items(cart search button) inside the id searchCart as a whole */
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+#navBar>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 180px; 
+    /* margin the unorder list as a whole(create a space between the ul and food logo*/
+}
+#navBar>ul>li{
+    margin:40px;
+    font-size: 20px;
+    /* margin list items from each other (create space between list items)*/
+}
+#navBar>ul>li>a{
+    text-decoration: none;
+    color: black ;
+}
+.searchItem{
+    margin-left: 20px; 
+    /* create a space between the button and the cart,search icons*/
+    border-radius: 50px;
+    border: none;
+}
+.serachButton{
+    background-color: lightgreen;
+    padding: 10px 20px;
+}
+#main{
+    display: flex
+}
+.text{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+#BU{
+    font-size: 15px;
+    background-color: lightgreen;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+#BU2{
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+.pic{
+    width:350px;
+    margin-left: 100px;
+}
