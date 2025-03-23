@@ -39,29 +39,81 @@
     padding: 10px 20px;
 }
 #main{
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.text{
-    font-size: 20px;
+.leftMain{
+    width: 600px;
+}
+.leftMain>h1{
     color: black;
-    margin-left: 10px;
+    font-size: 62px;
 }
-#BU{
-    font-size: 15px;
+.leftMain>h1>span{
+    color: lightgreen;
+}
+.leftMain>p{
+    font-size: large;
+}
+.orderButton{
     background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+}
+.playButton{
     border-radius: 15px;
     border: none;
-    padding: 10px;
+    padding: 10px 16px;
+    box-shadow: 1px 1px 1px 1px;
+    margin: auto;
+    /* حتى اخلي المساحة من يسار زر البلاي تساوي المساحة من يمين زر البلاي*/
+}
+.watchButton{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    color:grey;
+    padding: 10px
+}
+/* .greenScreen{  
+    position: absolute; 
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    z-index: -1;
+    top: 200px;
+    right: 50%; */
+/* } */
+.imageDiv{
+    z-index: 0;
+}
+.rightMain{
+    position: relative;
+}
+.heart{
+    font-size: 24px;
+    z-index: +1;
+    position: absolute;
+    top: 200px;
+    left: 85px;
+}
+.item{
+    display: flex;
+    background-color:azure;
+    border-radius: 10px;
+    border: 1 solid black;
+    margin-left: 20px;
+}
+.text{
+    font-size: 15px;
     margin-left: 10px;
 }
-#BU2{
-    font-size: 15px;
-    background-color: white;
-    border: none;
-    margin: 10px;
-    padding: 10px;
-}
-.pic{
-    width:350px;
-    margin-left: 100px;
+.bottomMain{
+    display: flex;
 }
