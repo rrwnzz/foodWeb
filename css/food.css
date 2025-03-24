@@ -42,6 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .leftMain{
     width: 600px;
@@ -74,8 +75,8 @@
 }
 .watchButton{
     background-color: white;
-    border-radius: 10px;
-    border: none;
+    border-radius: 15px;
+    
     font-size: 24px;
     color:grey;
     padding: 10px
@@ -105,8 +106,9 @@
 }
 .item{
     display: flex;
-    background-color:azure;
+    background-color:white;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 1 solid black;
     margin-left: 20px;
 }
@@ -116,4 +118,60 @@
 }
 .bottomMain{
     display: flex;
+}
+#underMain{
+    display: block;
+}
+.mainContent{
+    text-align: center;
+    margin-top: 50px;
+}
+.redText{
+    color: lightcoral;
+    font-size: 15px;
+}
+.Cards{
+    display: flex; 
+}
+.card{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.card>h1{
+    font-size: 22px;
+}
+.card>p{
+    color: lightgray;
+    font-size: 19px;
+}
+#underMain2{
+    display: block;
+}
+.mainContent2{
+    text-align: center;
+    margin-top: 50px;
+}
+.redText{
+    color: lightcoral;
+    font-size: 15px;
+}
+.cards2{
+    display: flex; 
+}
+.card2{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.card2>h1{
+    font-size: 22px;
+}
+.card2>p{
+    color: lightgray;
+    font-size: 19px;
 }
