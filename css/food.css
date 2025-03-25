@@ -81,7 +81,7 @@
     color:grey;
     padding: 10px
 }
-/* .greenScreen{  
+ /* .greenScreen{  
     position: absolute; 
     background-color: lightgreen;
     width: 400px;
@@ -90,7 +90,7 @@
     z-index: -1;
     top: 200px;
     right: 50%; */
-/* } */
+/* }   */
 .imageDiv{
     z-index: 0;
 }
@@ -170,6 +170,7 @@
 }
 .card2>h1{
     font-size: 22px;
+    text-align: center;
 }
 .card2>p{
     color: lightgray;
