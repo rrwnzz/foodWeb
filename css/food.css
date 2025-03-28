@@ -246,3 +246,36 @@ p>span{
 .rate>p{
     margin:12px; 
 }
+#services{
+    display: flex;
+    margin-top: 80px;
+    align-items: center; 
+}
+.leftServices{
+    width: 600px;
+}
+.greenButton{
+    color: white;
+    background-color: #39DB4A;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.rightServices{
+    display: grid;
+    grid-template-columns: auto auto ; 
+    /* the items in the rightServices class will be distrubed as a 2 columns */
+}
+.card3{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.decoration{
+    color: #39DB4A;
+    text-align: center;
+    font-size: 15px;
+}
