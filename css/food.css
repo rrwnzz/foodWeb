@@ -81,7 +81,7 @@
     color:grey;
     padding: 10px
 }
- /* .greenScreen{  
+ /* .greenScreen{   
     position: absolute; 
     background-color: lightgreen;
     width: 400px;
@@ -89,8 +89,8 @@
     border-radius: 100%;
     z-index: -1;
     top: 200px;
-    right: 50%; */
-/* }     */
+    right: 50%; 
+/* }       */
 .imageDiv{
     z-index: 0;
 }
@@ -203,4 +203,46 @@
     justify-content: center;
     align-items: center;
     border-radius: 0px 50px 0px 50px;
+}
+#testimonials{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.leftTest{
+    width: 700px; 
+    position: relative;
+    z-index: 0;
+}
+.chefGreenscreen{
+    position: absolute;
+    background-color: #39DB4A;
+    width: 350px;
+    height: 350px;
+    z-index: -1;
+    top: 0px;
+    left: 180px;
+    border-radius:100% ;
+}
+.rightTest>h1{
+    font-size: 30px
+}
+.feedback{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.feedback>img{
+    border-radius: 100%;
+}
+p>span{
+    color: yellow;
+    font-size: 20px;
+}
+.rate{
+    display: flex;
+}
+.rate>p{
+    margin:12px; 
 }
