@@ -297,4 +297,59 @@ p>span{
     text-align: center;
     font-size: 15px;
 }
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+}
+.leftFooter>p{
+    color: #555555;
+}
+.rightFooter>ul>li{
+    list-style: none;
+    color: #555555;
+    margin: 10px;
+}
+.rightFooter>h3{ 
+    margin-left: 30px;
+}
+.social{
+    display: flex; 
+    align-items: center; 
+}
+.Green>i{
+    margin: 10px;
+}
+.DarkGreen{
+    margin: 10px;
+}
+.socialIcon{
+    display: flex;
+    position: relative; 
+}
+.DarkGreen{
+    width: 40px;
+    height: 40px;
+    background-color: #39DB4A;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Green{
+    background-color: #EDFFEF;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.copyright{
+    position: absolute;
+    left: 45%;
+    color: #555555;
+}
+
+
+
 
