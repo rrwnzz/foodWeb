@@ -15,7 +15,7 @@
 #navBar>ul{
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: center; 
     margin-left: 180px; 
     /* margin the unorder list as a whole(create a space between the ul and food logo*/
 }
