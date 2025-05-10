@@ -135,6 +135,7 @@
 }
 .card>img{
     margin-top: 25px;
+    border-radius: 100%;
 }
 .card{
     background-color: white;
@@ -209,6 +210,10 @@
     justify-content: center; 
     align-items: center; 
     text-align: center; 
+}
+.leftTest>img{
+    border-radius: 100%;
+    margin-top: 10px;
 }
 .leftTest{
     width: 700px; 
